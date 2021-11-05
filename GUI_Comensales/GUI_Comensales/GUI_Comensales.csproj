@@ -170,5 +170,26 @@
   <ItemGroup>
     <None Include="Resources\Lasagna.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Farinata.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Margarita.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Marinara.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minestrone.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Napolitana.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ravioli.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Risotto.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
