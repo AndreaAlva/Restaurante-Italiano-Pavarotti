@@ -907,14 +907,15 @@ namespace GUI_Comensales
             // menu_button
             // 
             this.menu_button.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.menu_button.FlatAppearance.BorderColor = System.Drawing.Color.SaddleBrown;
+            this.menu_button.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.menu_button.FlatAppearance.BorderSize = 0;
-            this.menu_button.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.menu_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menu_button.ForeColor = System.Drawing.SystemColors.Control;
+            this.menu_button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.menu_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.menu_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menu_button.ForeColor = System.Drawing.Color.White;
             this.menu_button.Location = new System.Drawing.Point(1750, 33);
             this.menu_button.Name = "menu_button";
-            this.menu_button.Size = new System.Drawing.Size(139, 33);
+            this.menu_button.Size = new System.Drawing.Size(150, 35);
             this.menu_button.TabIndex = 5;
             this.menu_button.Text = "Menú del Día";
             this.menu_button.UseVisualStyleBackColor = false;

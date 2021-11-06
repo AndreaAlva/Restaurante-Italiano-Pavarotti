@@ -93,6 +93,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Connection.cs" />
+    <Compile Include="FacturaResumen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacturaResumen.Designer.cs">
+      <DependentUpon>FacturaResumen.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

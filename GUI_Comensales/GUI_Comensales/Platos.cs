@@ -25,6 +25,7 @@ namespace GUI_Comensales
            Form1 principal = new Form1();
             principal.Show();
             this.Hide();
+            //this.Dispose();
         }
 
         private void menu_button_Click(object sender, EventArgs e)
@@ -32,6 +33,8 @@ namespace GUI_Comensales
             MenuPlatos mp = new MenuPlatos();
             mp.Show();
             this.Hide();
+            //this.Dispose();
+
         }
     }
 }
